@@ -1,11 +1,8 @@
 //%attributes = {"invisible":true}
-C_TEXT:C284($1)
+#DECLARE($ColName : Text)->$color : Integer
 
-C_TEXT:C284($ColName)
-C_BOOLEAN:C305($focus)
-C_LONGINT:C283($id; $color)
-
-$ColName:=$1
+var $focus : Boolean
+var $id : Integer
 
 //isFrontmostWindow:=(Frontmost window=Current form window)
 
@@ -99,5 +96,3 @@ Case of
 		
 		
 End case 
-
-$0:=$color

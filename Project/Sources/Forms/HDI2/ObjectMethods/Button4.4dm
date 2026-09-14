@@ -1,4 +1,4 @@
-C_LONGINT:C283($i; $n)
+var $i; $n : Integer
 
 CREATE EMPTY SET:C140([SAMPLES:3]; "$hightlightSet")
 If (Not:C34(Shift down:C543))

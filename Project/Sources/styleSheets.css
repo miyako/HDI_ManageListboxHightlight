@@ -1,0 +1,17 @@
+/* Cross-platform dark mode support.
+   Colours used only to demonstrate custom listbox highlighting (the "Bgnd*"
+   reference tiles and their corresponding highlight colours) are intentionally
+   left as fixed values: they are the actual subject of this HDI and must not
+   be replaced with "automatic". */
+
+@media (prefers-color-scheme: light) {
+	.hdi-divider {
+		stroke: #C0C0C0;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-divider {
+		stroke: #3A3A3A;
+	}
+}

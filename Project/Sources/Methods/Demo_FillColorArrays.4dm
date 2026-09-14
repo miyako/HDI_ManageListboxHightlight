@@ -1,6 +1,6 @@
 //%attributes = {"invisible":true}
-C_LONGINT:C283($i; $n; $id)
-C_BOOLEAN:C305($focus)
+var $i; $n; $id : Integer
+var $focus : Boolean
 
 //isFrontmostWindow:=(Frontmost window=Current form window)
 $focus:=(listboxArrayHasFocus & isFrontmostWindow)

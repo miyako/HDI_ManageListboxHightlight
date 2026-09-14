@@ -51,7 +51,8 @@
 					"height": 88,
 					"class": "HDI",
 					"fontWeight": "bold",
-					"text": ":xliff:... manage highlight color of listboxes?"
+					"text": ":xliff:... manage highlight color of listboxes?",
+					"stroke": "automatic"
 				},
 				"TxtSorry2": {
 					"type": "text",
@@ -62,7 +63,8 @@
 					"visibility": "hidden",
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": ":xliff:Sorry"
+					"text": ":xliff:Sorry",
+					"stroke": "automatic"
 				},
 				"TxtVersion": {
 					"type": "text",
@@ -71,7 +73,8 @@
 					"width": 220,
 					"height": 14,
 					"fontTheme": "additional",
-					"text": ":xliff:(4D v16R2 and above...)"
+					"text": ":xliff:(4D v16R2 and above...)",
+					"stroke": "automatic"
 				},
 				"TxtSorry3": {
 					"type": "text",
@@ -89,14 +92,15 @@
 					"top": 280,
 					"left": 250,
 					"width": 90,
-					"height": 20,
 					"action": "accept",
 					"text": ":xliff:Demo",
 					"focusable": false,
 					"defaultButton": true,
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default",
+					"method": "ObjectMethods/BtnDemo.4dm"
 				},
 				"TxtInfo1": {
 					"type": "text",
@@ -106,7 +110,8 @@
 					"height": 18,
 					"class": "HDI",
 					"fontWeight": "bold",
-					"text": ":xliff:How Do I..."
+					"text": ":xliff:How Do I...",
+					"stroke": "automatic"
 				}
 			}
 		}
