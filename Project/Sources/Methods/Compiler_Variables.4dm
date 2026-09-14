@@ -1,11 +1,4 @@
 //%attributes = {"invisible":true}
-C_REAL:C285(Demo)
-C_REAL:C285(Header1)
-C_REAL:C285(Header2)
-C_REAL:C285(Header3)
-C_REAL:C285(Header4)
-C_BOOLEAN:C305(listboxArrayHasFocus)
-C_REAL:C285(LB_Selection)
-C_BOOLEAN:C305(listboxSelectionHasFocus)
-C_TEXT:C284(vRecNum)
-C_BOOLEAN:C305(isFrontmostWindow)
+var listboxArrayHasFocus : Boolean
+var listboxSelectionHasFocus : Boolean
+var isFrontmostWindow : Boolean

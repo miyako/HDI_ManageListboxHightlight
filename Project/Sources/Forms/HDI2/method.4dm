@@ -1,5 +1,5 @@
-C_LONGINT:C283($foreground)
-C_LONGINT:C283($n)
+var $foreground; $n : Integer
+var $json : Collection
 
 Case of 
 	: (Form event code:C388=On Load:K2:1)

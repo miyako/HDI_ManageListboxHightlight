@@ -1,5 +1,5 @@
 //%attributes = {"invisible":true}
-C_LONGINT:C283($i; $n)
+var $i; $n : Integer
 
 $n:=Size of array:C274(_Category)
 ARRAY LONGINT:C221(_ListboxFontColor; $n)

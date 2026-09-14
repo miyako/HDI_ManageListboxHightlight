@@ -1,154 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="http://www.w3.org/1999/xhtml" version="1.0">
-  <file datatype="x-STR#" original="undefined" product-version="v16" source-language="en-US" target-language="ja">
+  <file datatype="x-STR#" original="undefined" product-version="v16" source-language="en-US" target-language="en-US">
     <header>
       <note/>
     </header>
     <body>
       <group resname="HDI">
-        <!-- common stuff -->
         <trans-unit resname="Quit 4D">
           <source>Quit 4D</source>
-          <target>終了する</target>
+          <target>Quit 4D</target>
         </trans-unit>
         <trans-unit resname="Demo">
           <source>Demo</source>
-          <target>スタート</target>
+          <target>Demo</target>
         </trans-unit>
         <trans-unit resname="(4D v16R2 and above...)">
           <source>(4D v16R2 and above...)</source>
-          <target>(4D v16R2 以降...)</target>
+          <target>(4D v16R2 and above...)</target>
         </trans-unit>
         <trans-unit resname="How Do I...">
           <source>How Do I...</source>
-          <target>教えて...</target>
+          <target>How Do I...</target>
         </trans-unit>
         <trans-unit resname="Demo...">
           <source>Demo...</source>
-          <target>デモンストレーション...</target>
+          <target>Demo...</target>
         </trans-unit>
         <trans-unit resname="The plugin xxx is mandatory">
           <source>The plugin xxx is mandatory</source>
-          <target>プラグインxxxが必要です。</target>
+          <target>The plugin xxx is mandatory</target>
         </trans-unit>
         <trans-unit resname="Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.">
           <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
-          <target>このHDIをデザインモードで開いてはなりません。開いてしまった場合，フォームやメソッドが不完全になってしまう恐れがあります。</target>
+          <target>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</target>
         </trans-unit>
         <trans-unit resname="Sorry">
           <source>Sorry, this &quot;How do I...&quot; (HDI) &#x0D;example must be used with&#x0D;a newer version of 4D&#x0D;(v16 and above).</source>
-          <target>申し訳ありません。この&quot;How do I...&quot; (HDI) &#x0D;サンプルは，より新しいバージョンの4D（v16R2以降）で開かなければなりません。</target>
+          <target>Sorry, this &quot;How do I...&quot; (HDI) &#x0D;example must be used with&#x0D;a newer version of 4D&#x0D;(v16 and above).</target>
         </trans-unit>
-        <!-- specific stuff -->
         <trans-unit resname="... manage highlight color of listboxes?">
           <source>... manage highlight color of listboxes?</source>
-          <target>... リストボックスのハイライトカラーを自由に制御するには?</target>
+          <target>... manage highlight color of listboxes?</target>
         </trans-unit>
         <trans-unit resname="Infos">
           <source>Infos</source>
-          <target>説明</target>
+          <target>Infos</target>
         </trans-unit>
         <trans-unit resname="Selection">
           <source>Selection</source>
-          <target>セレクション</target>
+          <target>Selection</target>
         </trans-unit>
         <trans-unit resname="Arrays">
           <source>Arrays</source>
-          <target>配列</target>
+          <target>Arrays</target>
         </trans-unit>
         <trans-unit resname="SelectionDemo">
           <source>SelectionDemo</source>
-          <target>セレクション demo</target>
+          <target>SelectionDemo</target>
         </trans-unit>
         <trans-unit resname="Arrays Demo">
           <source>Arrays Demo</source>
-          <target>配列 demo</target>
+          <target>Arrays Demo</target>
         </trans-unit>
         <trans-unit resname="Hierarchical Listbox">
           <source>Hierarchical Listbox</source>
-          <target>階層リストボックス</target>
+          <target>Hierarchical Listbox</target>
         </trans-unit>
         <trans-unit resname="Random Select">
           <source>Random Select</source>
-          <target>ランダムに選択</target>
+          <target>Random Select</target>
         </trans-unit>
         <trans-unit resname="Click in the area below to test getting and losing the focus.">
           <source>Click in the area below to test getting and losing the focus.</source>
-          <target>非フォーカスの振る舞いを確認するにはこのオプジェクトをクリックしてください</target>
+          <target>Click in the area below to test getting and losing the focus.</target>
         </trans-unit>
         <trans-unit resname="This last example demonstrates that the highlight of a hierachical list can also be customized.">
           <source>This last example demonstrates that the highlight of a hierachical list can also be customized.</source>
-          <target>この例題からわかるように，階層リストボックスのハイライトカラーも自由にカスタマイズすることができます。</target>
+          <target>This last example demonstrates that the highlight of a hierachical list can also be customized.</target>
         </trans-unit>
         <trans-unit resname="Category">
           <source>Category</source>
-          <target>カテゴリー</target>
+          <target>Category</target>
         </trans-unit>
         <trans-unit resname="Reference">
           <source>Reference</source>
-          <target>参照番号</target>
+          <target>Reference</target>
         </trans-unit>
         <trans-unit resname="Value">
           <source>Value</source>
-          <target>値</target>
+          <target>Value</target>
         </trans-unit>
-        <trans-unit resname="In this example five arrays have been used to define the list box and &quot;Category&quot; backgrounds and font colors, as well as the &quot;Value&quot; font colors.">
+        <trans-unit resname="In this example five arrays have been used to define the list box and &amp;quot;Category&amp;quot; backgrounds and font colors, as well as the &amp;quot;Value&amp;quot; font colors.">
           <source>In this example five arrays have been used to define the list box and &quot;Category&quot; backgrounds and font colors, as well as the &quot;Value&quot; font colors.</source>
-          <target>この例題では，リストボックス全体および&quot;カテゴリー&quot;の背景色の文字色，また&quot;値&quot;の文字色をカスタマイズするために，全部で5個の制御配列が使用されています。</target>
+          <target>In this example five arrays have been used to define the list box and &quot;Category&quot; backgrounds and font colors, as well as the &quot;Value&quot; font colors.</target>
         </trans-unit>
-        <trans-unit resname="In this example, only one expression using one parameter is used to define the list box and &quot;Category&quot; backgrounds and font colors, as well as the &quot;Value&quot; font colors.">
+        <trans-unit resname="In this example, only one expression using one parameter is used to define the list box and &amp;quot;Category&amp;quot; backgrounds and font colors, as well as the &amp;quot;Value&amp;quot; font colors.">
           <source>In this example, only one expression using one parameter is used to define the list box and &quot;Category&quot; backgrounds and font colors, as well as the &quot;Value&quot; font colors.</source>
-          <target>この例題では，リストボックス全体および&quot;カテゴリー&quot;の背景色，また&quot;値&quot;の文字色をカスタマイズするために，1個の引数を取る共通の制御式が使用されています。</target>
+          <target>In this example, only one expression using one parameter is used to define the list box and &quot;Category&quot; backgrounds and font colors, as well as the &quot;Value&quot; font colors.</target>
         </trans-unit>
         <trans-unit resname="In this example, the three arrays are filled according to the values of the selection (Boolean array).">
           <source>In this example, the three arrays are filled according to the values of the selection (Boolean array).&#x0D;&#x0D;When &quot;True&quot; the item value is &quot;True&quot; for the background array item, &quot;White&quot; for the font color array item and &quot;Bold&quot; for the style array. Otherwise, the item value is the constant &quot;lk inherited&quot; in every array.</source>
-          <target>この例題では，リストボックスの選択行配列（ARRAY BOOLEAN）に基づいて3個の制御配列が更新されています。値が&quot;True&quot;であれば背景色配列に&quot;0x00505080&quot;（ブルーグレー），文字色配列には&quot;0x00FFFFFF&quot;（白），スタイル配列には&quot;Bold&quot;が代入されます。そうでなければ，いずれの配列にも定数&quot;lk inherited&quot;が代入されます。</target>
+          <target>In this example, the three arrays are filled according to the values of the selection (Boolean array).&#x0D;&#x0D;When &quot;True&quot; the item value is &quot;True&quot; for the background array item, &quot;White&quot; for the font color array item and &quot;Bold&quot; for the style array. Otherwise, the item value is the constant &quot;lk inherited&quot; in every array.</target>
         </trans-unit>
-        <trans-unit resname="In this example, the three &quot;Expressions&quot; verify that the current record belongs to the defined &quot;Hightlight Set&quot;.">
+        <trans-unit resname="In this example, the three &amp;quot;Expressions&amp;quot; verify that the current record belongs to the defined &amp;quot;Hightlight Set&amp;quot;.">
           <source>In this example, the three &quot;Expressions&quot; verify that the current record belongs to the defined &quot;Hightlight Set&quot;.&#x0D;&#x0D;If so, the returned values are &quot;Brown&quot; for background, &quot;White&quot; for font color and &quot;Bold&quot; for style. Otherwise, the returned value is the contant &quot;lk inherited&quot;.</source>
-          <target>この例題では，&quot;ハイライトセット&quot;にカレントレコードが含まれているかどうかを3個の制御式がチェックしています。含まれていれば，背景色に&quot;0x00804000&quot;（ブラウン），文字色には&quot;0x00FFFFFF&quot;（白），スタイルには&quot;Bold&quot;が返されます。そうでなければ，いずれの場合にも定数&quot;lk inherited&quot;が返されます。</target>
+          <target>In this example, the three &quot;Expressions&quot; verify that the current record belongs to the defined &quot;Hightlight Set&quot;.&#x0D;&#x0D;If so, the returned values are &quot;Brown&quot; for background, &quot;White&quot; for font color and &quot;Bold&quot; for style. Otherwise, the returned value is the contant &quot;lk inherited&quot;.</target>
         </trans-unit>
         <trans-unit resname="Thanks to a new property of the list box">
           <source>Thanks to a new property of the list box, you will now be able to manage your own highlight color for selected rows in the list box. This property will fully disable the system graphical highlight for selected rows but selections will still be managed exactly as previously (using mouse clicks or keyboard arrows).</source>
-          <target>リストボックスに追加された新しいプロパティにより，選択行のハイライトがカスタマイズできるようになりました。プロパティを有効にすると，選択された行のシステムハイライト表示が完全になくなります。ハイライトされていなくても，選択はされているので，マウスクリックや矢印キーの操作でこれまでどおり選択された行を管理することができます。</target>
+          <target>Thanks to a new property of the list box, you will now be able to manage your own highlight color for selected rows in the list box. This property will fully disable the system graphical highlight for selected rows but selections will still be managed exactly as previously (using mouse clicks or keyboard arrows).</target>
         </trans-unit>
         <trans-unit resname="In order to make the selection visible using your own highlight color, you have to manage the display...">
           <source>In order to make the selection visible using your own highlight color, you have to manage the display...</source>
-          <target>ハイライト表示をカスタマイズするためには，自分で表示方法を切り替える必要があります。</target>
+          <target>In order to make the selection visible using your own highlight color, you have to manage the display...</target>
         </trans-unit>
         <trans-unit resname="Selection based list boxes">
           <source>Selection based list boxes</source>
-          <target>セレクション型リストボックス</target>
+          <target>Selection based list boxes</target>
         </trans-unit>
         <trans-unit resname="Array based list boxes">
           <source>Array based list boxes</source>
-          <target>配列型リストボックス</target>
+          <target>Array based list boxes</target>
         </trans-unit>
         <trans-unit resname="Reminder: The Background Color">
           <source>Reminder: The Background Color,  the Font Color and the Font Style of rows are based on expressions defined in the property list. These expressions, if present, are automaticaly evaluated by 4D for each displayed line.&#x0D;&#x0D;New: During this evaluation, check if the current record belongs to the set defined for the list box &quot;Hightlight Set&quot; property, then return the value acordingly for each property.</source>
-          <target>基本情報：行の背景色・文字色・文字スタイルはプロパティリストで定義された式によって決まります。定義されている場合，表示されている行毎に式が評価されます。&#x0D;&#x0D;新しくできるようになったこと：式が評価されるとき，カレントレコードがリストボックスの&quot;ハイライトセット&quot;に含まれているかどうかチェックし，それぞれのプロパティに適切な値を返すことができます。</target>
+          <target>Reminder: The Background Color,  the Font Color and the Font Style of rows are based on expressions defined in the property list. These expressions, if present, are automaticaly evaluated by 4D for each displayed line.&#x0D;&#x0D;New: During this evaluation, check if the current record belongs to the set defined for the list box &quot;Hightlight Set&quot; property, then return the value acordingly for each property.</target>
         </trans-unit>
         <trans-unit resname="Reminder: The Background Color2">
           <source>Reminder: The Background Color, the Font Color and the Font Style are based on three arrays. The content of these arrays (if present) are automatically taken into account by 4D to display rows.&#x0D;&#x0D;New: During the &quot;On Selection Change&quot; event, parse the list box variable (which is Boolean array that contains the selected rows) and fill these three arrays accordingly.</source>
-          <target>基本情報：行の背景色・文字色・文字スタイルは3個の配列によって決まります。定義されている場合，配列の各要素に基づいて決められます。&#x0D;&#x0D;新しくできるようになったこと：&quot;On Selection Change&quot;イベントが評価されるとき，リストボックスのデータソース（ARRAY BOOLEAN）をスキャンし，それぞれの配列に適切な値を代入することができます。</target>
+          <target>Reminder: The Background Color, the Font Color and the Font Style are based on three arrays. The content of these arrays (if present) are automatically taken into account by 4D to display rows.&#x0D;&#x0D;New: During the &quot;On Selection Change&quot; event, parse the list box variable (which is Boolean array that contains the selected rows) and fill these three arrays accordingly.</target>
         </trans-unit>
-
-        <!-- modernisation additions -->
         <trans-unit resname="HDI2_HeaderCategoryColors">
           <source>Category colors&#x0D;</source>
-          <target>カテゴリーの色&#x0D;</target>
+          <target>Category colors&#x0D;</target>
         </trans-unit>
         <trans-unit resname="HDI2_HeaderListboxColors">
           <source>Listbox colors&#x0D;</source>
-          <target>リストボックスの色&#x0D;</target>
+          <target>Listbox colors&#x0D;</target>
         </trans-unit>
         <trans-unit resname="HDI2_HeaderValueColors">
           <source>Value colors</source>
-          <target>値の色</target>
+          <target>Value colors</target>
         </trans-unit>
         <trans-unit resname="HDI2_DoNotRemoveTiles">
           <source>DO NOT REMOVE THESE TILES, THEY ARE USED TO DEFINE THE HIGHLIGHT AND FONT COLORS OF THE DEMOS !</source>
-          <target>これらのタイルは削除しないでください。デモのハイライト色と文字色を定義するために使用されています！</target>
+          <target>DO NOT REMOVE THESE TILES, THEY ARE USED TO DEFINE THE HIGHLIGHT AND FONT COLORS OF THE DEMOS !</target>
         </trans-unit>
         <trans-unit resname="HDI2_HeaderID">
           <source>ID</source>
@@ -156,13 +152,12 @@
         </trans-unit>
         <trans-unit resname="HDI2_FrontmostWindow">
           <source>Frontmost Win</source>
-          <target>最前面ウィンドウ</target>
+          <target>Frontmost Win</target>
         </trans-unit>
         <trans-unit resname="BtnClose">
           <source>Close</source>
-          <target>閉じる</target>
+          <target>Close</target>
         </trans-unit>
-
       </group>
     </body>
   </file>

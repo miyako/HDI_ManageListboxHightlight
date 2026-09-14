@@ -1,4 +1,4 @@
-C_LONGINT:C283($i; $n)
+var $i; $n : Integer
 
 $n:=Size of array:C274(_Category)
 

@@ -1,5 +1,5 @@
-//%attributes = {"invisible":true}
-C_LONGINT:C283($i)
+//%attributes = {}
+var $i : Integer
 
 ARRAY TEXT:C222($_Categoties; 0)
 APPEND TO ARRAY:C911($_Categoties; "Alpha")

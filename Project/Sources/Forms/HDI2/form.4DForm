@@ -31,7 +31,8 @@
 					"left": 1080,
 					"width": 300,
 					"height": 170,
-					"text": "Category colors\r"
+					"text": ":xliff:HDI2_HeaderCategoryColors",
+					"stroke": "automatic"
 				},
 				"Text2": {
 					"type": "groupBox",
@@ -39,7 +40,8 @@
 					"left": 760,
 					"width": 300,
 					"height": 170,
-					"text": "Listbox colors\r"
+					"text": ":xliff:HDI2_HeaderListboxColors",
+					"stroke": "automatic"
 				},
 				"Tab Control": {
 					"type": "tab",
@@ -182,7 +184,8 @@
 					"left": 1400,
 					"width": 300,
 					"height": 170,
-					"text": "Value colors"
+					"text": ":xliff:HDI2_HeaderValueColors",
+					"stroke": "automatic"
 				},
 				"BgndMain1": {
 					"type": "rectangle",
@@ -280,7 +283,7 @@
 					"height": 502,
 					"visibility": "hidden",
 					"fill": "transparent",
-					"stroke": "#C0C0C0"
+					"class": "hdi-divider"
 				},
 				"Text10": {
 					"type": "text",
@@ -290,7 +293,8 @@
 					"height": 17,
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "DO NOT REMOVE THESE TILES, THEY ARE USED TO DEFINE THE HIGHLIGHT AND FONT COLORS OF THE DEMOS !"
+					"text": ":xliff:HDI2_DoNotRemoveTiles",
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -312,7 +316,8 @@
 					"left": 40,
 					"width": 640,
 					"height": 80,
-					"text": ":xliff:Thanks to a new property of the list box"
+					"text": ":xliff:Thanks to a new property of the list box",
+					"stroke": "automatic"
 				},
 				"Text8": {
 					"type": "text",
@@ -320,7 +325,8 @@
 					"left": 40,
 					"width": 640,
 					"height": 20,
-					"text": ":xliff:In order to make the selection visible using your own highlight color, you have to manage the display..."
+					"text": ":xliff:In order to make the selection visible using your own highlight color, you have to manage the display...",
+					"stroke": "automatic"
 				},
 				"Text7": {
 					"type": "text",
@@ -329,7 +335,8 @@
 					"width": 261,
 					"height": 20,
 					"fontWeight": "bold",
-					"text": ":xliff:Selection based list boxes"
+					"text": ":xliff:Selection based list boxes",
+					"stroke": "automatic"
 				},
 				"SelectionBasedLB4": {
 					"type": "text",
@@ -338,7 +345,8 @@
 					"width": 640,
 					"height": 110,
 					"textAlign": "left",
-					"text": ":xliff:Reminder: The Background Color2"
+					"text": ":xliff:Reminder: The Background Color2",
+					"stroke": "automatic"
 				},
 				"Text9": {
 					"type": "text",
@@ -347,7 +355,8 @@
 					"width": 261,
 					"height": 20,
 					"fontWeight": "bold",
-					"text": ":xliff:Array based list boxes"
+					"text": ":xliff:Array based list boxes",
+					"stroke": "automatic"
 				},
 				"SelectionBasedLB5": {
 					"type": "text",
@@ -356,21 +365,22 @@
 					"width": 640,
 					"height": 110,
 					"textAlign": "left",
-					"text": ":xliff:Reminder: The Background Color"
+					"text": ":xliff:Reminder: The Background Color",
+					"stroke": "automatic"
 				},
 				"Line": {
 					"type": "line",
 					"top": 280,
 					"left": 100,
 					"width": 520,
-					"stroke": "#C0C0C0"
+					"class": "hdi-divider"
 				},
 				"Line1": {
 					"type": "line",
 					"top": 430,
 					"left": 100,
 					"width": 520,
-					"stroke": "#C0C0C0"
+					"class": "hdi-divider"
 				},
 				"Picture9": {
 					"type": "picture",
@@ -421,8 +431,8 @@
 					"table": 3,
 					"highlightSet": "$hightlightSet",
 					"scrollbarHorizontal": "automatic",
-					"fill": "#FFFACD",
-					"alternateFill": "#F5DEB3",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate",
 					"rowStrokeSource": "UI_SetFontColor",
 					"rowFillSource": "UI_SetBackground",
 					"rowStyleSource": "UI_SetStyle",
@@ -441,8 +451,6 @@
 							"enterable": false,
 							"textFormat": "#######-###-#######-#######-##",
 							"stroke": "automatic",
-							"fill": "#FFFACD",
-							"alternateFill": "#F5DEB3",
 							"textAlign": "center",
 							"verticalAlign": "automatic",
 							"events": [
@@ -455,15 +463,18 @@
 								"dataSource": "Header3",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Footer14",
 								"stroke": "automatic",
 								"fill": "#FFFACD",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
 					]
 				},
@@ -505,13 +516,13 @@
 					"top": 52,
 					"left": 546,
 					"width": 135,
-					"height": 22,
 					"text": ":xliff:Random Select",
 					"focusable": false,
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"SelectionBasedLB1": {
 					"type": "text",
@@ -521,7 +532,8 @@
 					"height": 100,
 					"sizingY": "move",
 					"textAlign": "left",
-					"text": ":xliff:In this example, the three \"Expressions\" verify that the current record belongs to the defined \"Hightlight Set\"."
+					"text": ":xliff:In this example, the three \"Expressions\" verify that the current record belongs to the defined \"Hightlight Set\".",
+					"stroke": "automatic"
 				},
 				"Round Rectangle6": {
 					"type": "rectangle",
@@ -572,8 +584,8 @@
 					"rowHeightAutoMax": "20px",
 					"headerHeight": "20px",
 					"scrollbarHorizontal": "automatic",
-					"fill": "#EBF4FF",
-					"alternateFill": "#E1E9F5",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate",
 					"rowStrokeSource": "_ListboxFontColor",
 					"rowFillSource": "_ListboxBackground",
 					"rowStyleSource": "_ListboxStyle",
@@ -591,8 +603,6 @@
 							"enterable": false,
 							"textFormat": "#######-###-#######-#######-##",
 							"stroke": "automatic",
-							"fill": "#EBF4FF",
-							"alternateFill": "#E1E9F5",
 							"textAlign": "center",
 							"verticalAlign": "automatic",
 							"events": [
@@ -605,15 +615,18 @@
 								"dataSource": "Header3",
 								"stroke": "#000000",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Footer15",
 								"stroke": "automatic",
 								"fill": "#EBF4FF",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
 					]
 				},
@@ -655,13 +668,13 @@
 					"top": 52,
 					"left": 546,
 					"width": 135,
-					"height": 20,
 					"text": ":xliff:Random Select",
 					"focusable": false,
 					"method": "ObjectMethods/Button5.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"SelectionBasedLB2": {
 					"type": "text",
@@ -671,7 +684,8 @@
 					"height": 100,
 					"sizingX": "move",
 					"textAlign": "left",
-					"text": ":xliff:In this example, the three arrays are filled according to the values of the selection (Boolean array)."
+					"text": ":xliff:In this example, the three arrays are filled according to the values of the selection (Boolean array).",
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -682,13 +696,13 @@
 					"top": 52,
 					"left": 546,
 					"width": 135,
-					"height": 22,
 					"text": ":xliff:Random Select",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"List Box": {
 					"type": "listbox",
@@ -739,15 +753,18 @@
 								"dataSource": "Header2",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Footer2",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column1",
@@ -768,19 +785,22 @@
 							],
 							"header": {
 								"name": "Header1",
-								"text": "ID",
+								"text": ":xliff:HDI2_HeaderID",
 								"dataSource": "Header1",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Footer1",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column3",
@@ -805,15 +825,18 @@
 								"dataSource": "Header3",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Footer3",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column4",
@@ -840,15 +863,18 @@
 								"dataSource": "Header4",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Footer4",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
 					]
 				},
@@ -872,7 +898,8 @@
 					"textAlign": "right",
 					"fontTheme": "additional",
 					"fontStyle": "italic",
-					"text": ":xliff:Click in the area below to test getting and losing the focus."
+					"text": ":xliff:Click in the area below to test getting and losing the focus.",
+					"stroke": "automatic"
 				},
 				"Check Box": {
 					"type": "checkbox",
@@ -882,7 +909,7 @@
 					"height": 17,
 					"sizingY": "move",
 					"dataSource": "isFrontmostWindow",
-					"text": "Frontmost Win",
+					"text": ":xliff:HDI2_FrontmostWindow",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -896,7 +923,8 @@
 					"height": 70,
 					"sizingY": "move",
 					"textAlign": "left",
-					"text": ":xliff:In this example, only one expression using one parameter is used to define the list box and \"Category\" backgrounds and font colors, as well as the \"Value\" font colors."
+					"text": ":xliff:In this example, only one expression using one parameter is used to define the list box and \"Category\" backgrounds and font colors, as well as the \"Value\" font colors.",
+					"stroke": "automatic"
 				},
 				"Variable5": {
 					"type": "input",
@@ -962,15 +990,18 @@
 								"dataSource": "Header2",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Footer9",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column10",
@@ -993,19 +1024,22 @@
 							],
 							"header": {
 								"name": "Header10",
-								"text": "ID",
+								"text": ":xliff:HDI2_HeaderID",
 								"dataSource": "Header1",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Footer10",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column11",
@@ -1030,15 +1064,18 @@
 								"dataSource": "Header3",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Footer11",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column12",
@@ -1065,15 +1102,18 @@
 								"dataSource": "Header4",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Footer12",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
 					]
 				},
@@ -1092,13 +1132,13 @@
 					"top": 52,
 					"left": 546,
 					"width": 135,
-					"height": 22,
 					"text": ":xliff:Random Select",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Check Box2": {
 					"type": "checkbox",
@@ -1108,7 +1148,7 @@
 					"height": 17,
 					"sizingY": "move",
 					"dataSource": "isFrontmostWindow",
-					"text": "Frontmost Win",
+					"text": ":xliff:HDI2_FrontmostWindow",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -1122,7 +1162,8 @@
 					"height": 70,
 					"sizingY": "move",
 					"textAlign": "left",
-					"text": ":xliff:In this example five arrays have been used to define the list box and \"Category\" backgrounds and font colors, as well as the \"Value\" font colors."
+					"text": ":xliff:In this example five arrays have been used to define the list box and \"Category\" backgrounds and font colors, as well as the \"Value\" font colors.",
+					"stroke": "automatic"
 				},
 				"Variable2": {
 					"type": "input",
@@ -1147,7 +1188,8 @@
 					"textAlign": "right",
 					"fontTheme": "additional",
 					"fontStyle": "italic",
-					"text": ":xliff:Click in the area below to test getting and losing the focus."
+					"text": ":xliff:Click in the area below to test getting and losing the focus.",
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -1214,15 +1256,18 @@
 								"dataSource": "Header2",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Footer5",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column7",
@@ -1247,15 +1292,18 @@
 								"dataSource": "Header3",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Footer7",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column8",
@@ -1282,15 +1330,18 @@
 								"dataSource": "Header4",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
 							},
 							"footer": {
 								"name": "Footer8",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
 					]
 				},
@@ -1299,13 +1350,13 @@
 					"top": 52,
 					"left": 546,
 					"width": 135,
-					"height": 22,
 					"text": ":xliff:Random Select",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Variable4": {
 					"type": "input",
@@ -1328,7 +1379,8 @@
 					"height": 70,
 					"sizingY": "move",
 					"textAlign": "left",
-					"text": ":xliff:This last example demonstrates that the highlight of a hierachical list can also be customized."
+					"text": ":xliff:This last example demonstrates that the highlight of a hierachical list can also be customized.",
+					"stroke": "automatic"
 				},
 				"Text5": {
 					"type": "text",
@@ -1340,7 +1392,8 @@
 					"textAlign": "right",
 					"fontTheme": "additional",
 					"fontStyle": "italic",
-					"text": ":xliff:Click in the area below to test getting and losing the focus."
+					"text": ":xliff:Click in the area below to test getting and losing the focus.",
+					"stroke": "automatic"
 				}
 			}
 		}
