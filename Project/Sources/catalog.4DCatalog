@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_ListboxManageHightlight" uuid="89D3E6F80FA9EA408A0E251A8569EC50" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="SAMPLES" uuid="87D6F311DFA6427581C776C822F0D76A" id="3">
+		<field name="ID" uuid="570C076B9AF44D4782C2123DB58279B1" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Reference" uuid="AF480F50965B409BA34581882EB14F7B" type="10" autogenerate="true" store_as_UUID="true" never_null="true" id="2"/>
+		<field name="Category" uuid="DFEEA8B5CCA84E80AB2339437161124C" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Value" uuid="9E79F34D27F843C4A4C4A4E25A30D013" type="4" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="570C076B9AF44D4782C2123DB58279B1"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="B252EC80549540398058AD26303B4351" type="7">
+		<field_ref uuid="570C076B9AF44D4782C2123DB58279B1" name="ID">
+			<table_ref uuid="87D6F311DFA6427581C776C822F0D76A" name="SAMPLES"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path=":ListboxManageHightlight.4DD" package_name="HDI_ListboxManageHightlight" structure_file_name="ListboxManageHightlight">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>
