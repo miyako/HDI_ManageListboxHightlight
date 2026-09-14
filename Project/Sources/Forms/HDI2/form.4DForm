@@ -388,7 +388,7 @@
 					"left": 157,
 					"width": 406,
 					"height": 81,
-					"pictureFormat": "scaled",
+					"pictureFormat": "truncatedTopLeft",
 					"picture": "Images/Picture9.png"
 				}
 			}
@@ -401,7 +401,7 @@
 					"left": 54,
 					"width": 286,
 					"height": 395,
-					"pictureFormat": "scaled",
+					"pictureFormat": "truncatedTopLeft",
 					"picture": "Images/Picture11.png"
 				},
 				"Rectangle5": {
@@ -480,7 +480,7 @@
 				},
 				"Round Rectangle": {
 					"type": "rectangle",
-					"top": 431,
+					"top": 413,
 					"left": 50,
 					"width": 294,
 					"height": 17,
@@ -491,7 +491,7 @@
 				},
 				"Round Rectangle1": {
 					"type": "rectangle",
-					"top": 449,
+					"top": 432,
 					"left": 50,
 					"width": 294,
 					"height": 17,
@@ -502,7 +502,7 @@
 				},
 				"Round Rectangle2": {
 					"type": "rectangle",
-					"top": 140,
+					"top": 133,
 					"left": 50,
 					"width": 294,
 					"height": 17,
@@ -522,7 +522,8 @@
 					"events": [
 						"onClick"
 					],
-					"class": "default"
+					"class": "default",
+					"bottom": 72
 				},
 				"SelectionBasedLB1": {
 					"type": "text",
@@ -537,7 +538,7 @@
 				},
 				"Round Rectangle6": {
 					"type": "rectangle",
-					"top": 226,
+					"top": 233,
 					"left": 50,
 					"width": 294,
 					"height": 17,
@@ -556,7 +557,7 @@
 					"left": 84,
 					"width": 252,
 					"height": 341,
-					"pictureFormat": "scaled",
+					"pictureFormat": "truncatedTopLeft",
 					"picture": "Images/Picture1.png"
 				},
 				"Rectangle6": {
@@ -632,7 +633,7 @@
 				},
 				"Round Rectangle3": {
 					"type": "rectangle",
-					"top": 386,
+					"top": 420,
 					"left": 80,
 					"width": 260,
 					"height": 17,
@@ -643,7 +644,7 @@
 				},
 				"Round Rectangle4": {
 					"type": "rectangle",
-					"top": 351,
+					"top": 381,
 					"left": 80,
 					"width": 260,
 					"height": 17,
@@ -654,7 +655,7 @@
 				},
 				"Round Rectangle5": {
 					"type": "rectangle",
-					"top": 171,
+					"top": 180,
 					"left": 80,
 					"width": 260,
 					"height": 17,
@@ -674,7 +675,8 @@
 					"events": [
 						"onClick"
 					],
-					"class": "default"
+					"class": "default",
+					"bottom": 72
 				},
 				"SelectionBasedLB2": {
 					"type": "text",
@@ -702,7 +704,8 @@
 					"events": [
 						"onClick"
 					],
-					"class": "default"
+					"class": "default",
+					"bottom": 72
 				},
 				"List Box": {
 					"type": "listbox",
@@ -1138,7 +1141,8 @@
 					"events": [
 						"onClick"
 					],
-					"class": "default"
+					"class": "default",
+					"bottom": 72
 				},
 				"Check Box2": {
 					"type": "checkbox",
@@ -1356,7 +1360,8 @@
 					"events": [
 						"onClick"
 					],
-					"class": "default"
+					"class": "default",
+					"bottom": 72
 				},
 				"Variable4": {
 					"type": "input",
@@ -1399,8 +1404,8 @@
 		}
 	],
 	"editor": {
-		"defaultView": "View 1",
 		"activeView": "SelBasedLB",
+		"defaultView": "View 1",
 		"views": {
 			"View 1": {},
 			"SelBasedLB": {
@@ -1437,5 +1442,10 @@
 			"View 8": {},
 			"View 9": {}
 		}
-	}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 90
 }
